@@ -1,0 +1,36 @@
+{
+  "name": "express-1",
+  "version": "1.0.0",
+  "description": "Express course's proyect on platzi.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yotis56/express-1.git"
+  },
+  "keywords": [
+    "express",
+    "git",
+    "platzi"
+  ],
+  "author": "@Yotis56",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Yotis56/express-1/issues"
+  },
+  "homepage": "https://github.com/Yotis56/express-1#readme",
+  "devDependencies": {
+    "eslint": "^8.31.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.8.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
